@@ -1,0 +1,72 @@
+
+* {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #FF6347;
+  padding: 15px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+
+/* --------------------------------------logo----------------------------- */
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+}
+
+
+/*-------------------------- Navigation styling ----------------------------*/
+nav {
+  display: flex;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 12px 20px;
+  display: block;
+}
+
+nav a:hover {
+  background-color: #FF4500;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #FF6347;
+  min-width: 200px;
+  border-radius: 4px;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #FF4500;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+i{
+    margin-right: 5px;
+}
