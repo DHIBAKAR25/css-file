@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+span {
+    color: orangered;
+    font-size: 50px;
+}
+
+ul,li {
+    
+    display: inline-block;
+    color: white;
+}
+
+.header {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    background-color: black;
+    color: white;
+    width: auto;
+    height: 150px;
+    padding: 50px 0 0 20px;
+    box-sizing: border-box;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    box-sizing: border-box;
+}
+
+ul {
+    display: inline;
+    padding-left: 1500px;  
+    font-size: medium;
+    box-sizing: border-box;
+}
+
+li,a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    text-decoration-line: underline;
+}
+
+.value {
+    padding-left: 20px;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin: 0 0 20px 0PX;
+    width: 700px;
+    background-color: grey;
+}
+
+.scroll {
+    background-image: url(./image/css.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+    width: auto;
+    height: 700px;
+    padding: 50px 0 0 20px;
+    font-size: 20px;
+    background-blend-mode: color-burn;
+    margin-top: 10px;
+    border: 12px solid black;
+}
+
+.fixed {
+    background-image: url(./image/css.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    width: auto;
+    height: 700px;
+    padding: 50px 0 0 20px;
+    font-size: 20px;
+    background-blend-mode: color-burn;
+    margin-top: 10px;
+    border: 12px solid black;
+}
+
+.local {
+    background-image: url(./image/css.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: local;
+    width: auto;
+    height: 700px;
+    padding: 50px 0 0 20px;
+    font-size: 20px;
+    background-blend-mode: color-burn;
+    margin-top: 10px;
+    border: 12px solid black;
+}
+
+aside>h3 {
+    font-size: 40px;
+    text-decoration: none;
+    margin: 100px 800px 20px 500px;
+    text-align: center;
+    background-color: grey;
+width: 800px;
+}
+
+aside>p {
+   font-size: 30px;
+    padding: 20px 0 0 0;
+    text-align: center;
+    margin-top: 9px;
+    border: 5px solid black;
+    height: 800px;
+    line-height: 80px;
+}
+
